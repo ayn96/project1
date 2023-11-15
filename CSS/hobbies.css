@@ -1,0 +1,83 @@
+/* nav section */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: gray;
+  padding: 1rem 3rem;
+}
+
+.nav h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.menu a:hover {
+  color: rgb(249, 217, 175);
+}
+
+/* main section */
+main h3 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.content p {
+  text-align: left;
+}
+
+/* flexbox section */
+.flexbox {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.flexbox p {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.794);
+  padding: 2rem;
+}
+
+/* traveling section */
+#traveling a{
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#traveling a:hover{
+  color: rgba(246, 52, 52, 0.726);
+}
+
+/* matcha section */
+#matcha {
+  margin: 3rem 0;
+}
+
+#matcha .flexbox {
+  display: flex;
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,71 @@
+/* nav section */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: gray;
+  padding: 1rem 3rem;
+}
+
+.nav h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.menu a:hover {
+  color: rgb(249, 217, 175);
+}
+
+/* main section  */
+main{
+  text-align: center;
+}
+
+.content h4{
+  display: block;
+  margin: 2rem 0;
+  padding: 0.5rem;
+  background-color: gray;
+  color: white;
+}
+
+/* image-group section */
+.image-group{
+  background-color: white;
+}
+
+.grid{
+  display: grid;
+  grid-gap: 2rem;
+  width: fit-content;
+  height: min-content;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+  /* width: 80%;
+  height: 80%; */
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.image-group p {
+  padding: 1.5rem 0;
+}

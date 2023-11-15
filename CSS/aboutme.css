@@ -1,0 +1,87 @@
+/* nav section */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: gray;
+  padding: 1rem 3rem;
+}
+
+.nav h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.menu a:hover {
+  color: rgb(249, 217, 175);
+}
+
+/* content section */
+.content{
+  display: block;
+  margin: 0 3rem;
+}
+
+/* img section */
+img {
+  float: left;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 2rem;
+}
+
+/* profile section */
+.profile {
+  display: block;
+  overflow: auto;
+  padding: 1rem 2rem;
+  background-color: lightgray;
+}
+
+.white{
+  color: white;
+}
+
+#aboutme,
+#favorite {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* about-me section */
+#aboutme{
+  width: 60%;
+}
+
+/* favorite section */
+#favorite{
+  width: auto;
+}
+
+.content h1 {
+  margin: 1.5rem 0;
+}
+
+.content h3 {
+  padding: 0 0 0.5rem 0.5rem;
+}
+
+.content p {
+  padding: 0 0 1.5rem 1rem;
+}
